@@ -47,7 +47,7 @@ flg1 = True
 flg2 = True
 
 #指定したファイルを開く
-path1 = 'C:\\Users\\Owner\\Documents\\python_game\\lab\\test4.txt'
+path1 = 'C:\\Users\\Owner\\Documents\\python_game\\lab\\test4.txt' #自分が使いたいテキストファイルのパス
 
 #指定したファイルをリスト化する
 def list_open():
@@ -59,7 +59,7 @@ def list_open():
 def list_update():
     global path1
     print('リストの更新があるか確認します')
-    path2 = 'C:\\Users\\Owner\\Documents\\python_game\\lab\\test4.txt'
+    path2 = 'C:\\Users\\Owner\\Documents\\python_game\\lab\\test4.txt'　#自分が使いたいテキストファイルのパス
     if path2 != path1:
         print('リストの更新があったので行います')
         path1 = path2
